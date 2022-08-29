@@ -24,10 +24,26 @@ chmod 755 ./fileheron
 
 ## Build
 
-You can build the server yourself by using dart2native which is part of [Dart SDK](https://dart.dev/get-dart).
+You can build the server yourself by using dart2native or dart compile which is part of [Dart SDK](https://dart.dev/get-dart).
+
+-   Linux / MacOS
 
 ```
+// Using dart2native
 dart2native ./bin/main.dart -o ./build/fileheron
+
+// Using dart compile
+dart compile exe ./bin/main.dart -o ./build/fileheron
+```
+
+-   Windows
+
+```
+// Using dart2native
+dart2native bin\main.dart -o build\fileheron.exe
+
+// Using dart compile
+dart compile exe bin\main.dart -o build\fileheron.exe
 ```
 
 ## Parameters
