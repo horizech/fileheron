@@ -1,0 +1,16 @@
+name: FileHeron
+description: A simple file server
+version: 1.0.0
+homepage: https://www.fileheron.com
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  args: ^1.5.0
+  shelf: ^0.7.5
+  http_server: ^0.9.8+3
+  get_it: ^4.0.1
+
+dev_dependencies:
+  pedantic: ^1.8.0
