@@ -1,4 +1,4 @@
-# FileHeron
+# FileHeron CLI
 
 A simple file server
 
